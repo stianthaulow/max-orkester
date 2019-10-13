@@ -1,0 +1,21 @@
+.PlayPause {
+  margin: 1em auto;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, .8);
+  padding: 3em;
+}
+
+.PlayPause:hover {
+  background-color: rgba(0, 0, 0, .81)
+}
+
+.PlayPause svg {
+  /* background: red; */
+  fill: #eee;
+}
+
+.PlayPause:hover svg {
+  fill: #fff;
+}

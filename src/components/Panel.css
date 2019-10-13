@@ -1,0 +1,42 @@
+.Panel {
+  background-color: rgba(0, 0, 0, .3);
+  width: 100%;
+  margin: 2em;
+  min-height: 400px;
+  border-radius: 15px;
+  padding: 15px;
+  transition: all .2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.Panel:hover {
+  transform: scale(1.01);
+}
+
+.Panel .picture {
+  flex-grow: 1;
+  padding-bottom: 1em;
+}
+
+.Panel .picture img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Panel .statusLight {
+  margin: 0 auto;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+}
+
+.Panel .statusLight.off {
+  background-color: rgb(136, 138, 133);
+  box-shadow: rgb(45, 45, 138) 0 -1px 7px 1px, inset rgb(96, 97, 94) 0 -1px 9px, rgb(136, 138, 133) 0 0px 8px;
+}
+
+.Panel .statusLight.on {
+  background-color: rgb(148, 221, 2);
+  box-shadow: rgb(45, 138, 87) 0 -1px 7px 1px, inset rgb(100, 150, 0) 0 -1px 9px, rgb(148, 221, 2) 0 0px 8px;
+}
