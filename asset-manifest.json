@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/max-orkester/static/css/main.0f7d688d.chunk.css",
+    "main.js": "/max-orkester/static/js/main.721707d5.chunk.js",
+    "main.js.map": "/max-orkester/static/js/main.721707d5.chunk.js.map",
+    "runtime-main.js": "/max-orkester/static/js/runtime-main.b53ba1cd.js",
+    "runtime-main.js.map": "/max-orkester/static/js/runtime-main.b53ba1cd.js.map",
+    "static/js/2.d4956fbc.chunk.js": "/max-orkester/static/js/2.d4956fbc.chunk.js",
+    "static/js/2.d4956fbc.chunk.js.map": "/max-orkester/static/js/2.d4956fbc.chunk.js.map",
+    "index.html": "/max-orkester/index.html",
+    "precache-manifest.bdc675f4ba81b0b0c75f8ff14b3a4312.js": "/max-orkester/precache-manifest.bdc675f4ba81b0b0c75f8ff14b3a4312.js",
+    "service-worker.js": "/max-orkester/service-worker.js",
+    "static/css/main.0f7d688d.chunk.css.map": "/max-orkester/static/css/main.0f7d688d.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b53ba1cd.js",
+    "static/js/2.d4956fbc.chunk.js",
+    "static/css/main.0f7d688d.chunk.css",
+    "static/js/main.721707d5.chunk.js"
+  ]
+}
