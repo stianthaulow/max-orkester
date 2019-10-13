@@ -10,7 +10,7 @@ const audioContext = new AudioContext();
 const soundsToLoad = ["trommer", "sang", "gitar", "dj", "bass", "ooh"];
 
 const loadSound = async name => {
-  const response = await fetch(`/resources/${name}.mp3`);
+  const response = await fetch(`${process.env.PUBLIC_URL}/resources/${name}.mp3`);
   const arrayBuffer = await response.arrayBuffer();
   const audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
   return { name, audioBuffer };
